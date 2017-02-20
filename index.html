@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheets/calc.css">
+        <script src="typescripts/operations.js"></script>
+    </head>
+    <body>
+        <div id="calc_div">
+            <table id="calc_table">
+                <tr class="result_view_tr">
+                    <td colspan="4">
+                        <p id="result_view">0</label>
+                    </td>
+                </tr>
+                <tr class="button_tr">
+                    <td class="button_td button_func" onclick="click_init()">AC</td>
+                    <td class="button_td button_func">+/-</td>
+                    <td class="button_td button_func">%</td>
+                    <td class="button_td button_oper" onclick="click_oper('/')">/</td>
+                </tr>
+                <tr class="button_tr">
+                    <td class="button_td button_num" onclick="click_num('7')">7</td>
+                    <td class="button_td button_num" onclick="click_num('8')">8</td>
+                    <td class="button_td button_num" onclick="click_num('9')">9</td>
+                    <td class="button_td button_oper" onclick="click_oper('X')">X</td>
+                </tr>
+                <tr class="button_tr">
+                    <td class="button_td button_num" onclick="click_num('4')">4</td>
+                    <td class="button_td button_num" onclick="click_num('5')">5</td>
+                    <td class="button_td button_num" onclick="click_num('6')">6</td>
+                    <td class="button_td button_oper" onclick="click_oper('-')">-</td>
+                </tr>
+                <tr class="button_tr">
+                    <td class="button_td button_num" onclick="click_num('1')">1</td>
+                    <td class="button_td button_num" onclick="click_num('2')">2</td>
+                    <td class="button_td button_num" onclick="click_num('3')">3</td>
+                    <td class="button_td button_oper" onclick="click_oper('+')">+</td>
+                </tr>
+                <tr class="button_tr">
+                    <td colspan="2" class="button_td button_num" onclick="click_num('0')">0</td>
+                    <td class="button_td button_num">.</td>
+                    <td class="button_td button_res" onclick="click_oper('=')">=</td>
+                </tr>
+            </table> 
+        </div>
+    </body>
+</html>

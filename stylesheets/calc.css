@@ -1,0 +1,46 @@
+#calc_div {
+    width:400px;
+    height:650px;
+}
+
+#calc_table {
+    width:400px;
+    height:650px;
+    border-style: solid;
+}
+
+.result_view_tr {
+    height:150px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 40pt;
+}
+
+.button_tr {
+    height:100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button_td {
+    width:100px;
+}
+
+.button_func {
+    background-color: #cccccc;    
+}
+
+.button_oper {
+    background-color: #ff8b30;
+    color: white;
+}
+
+.button_res {
+    background-color: #ff8b30;
+    color: white;
+}
+
+.button_num {
+    background-color: #e7e7e7;
+}
